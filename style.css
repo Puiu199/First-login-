@@ -1,0 +1,84 @@
+body
+{
+	background: url(img/Background/Bground.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+
+}
+div.meniu
+{
+    margin-left: 75%;
+	margin-top: 5%;
+}
+input.login1
+{
+	width: 245px;
+	border-top: transparent;
+	border-right: transparent;
+	border-left: transparent;
+	background: transparent;
+	border-color: #1D7874;
+	border-width: 5px;
+	border-bottom-style:double;;
+	border-radius:7px;
+	color: white;
+	margin-top: 75px;
+}
+button.login1
+{
+	width: 75px;
+	height: 30px;
+	border-radius: 5px;
+	margin-top:75px;
+	margin-right:25px;
+	background-color: #bdc3cf;
+	border-color: transparent;
+	font-family: cursive;
+	font-size: 15px;
+}
+div.login1
+{
+	margin-top: 11%;
+	height: 400px;
+	width: 585px;
+	padding: 2px;
+    border-width: 1.5px;
+    backdrop-filter: blur(5px);
+    border-color: ;
+    border-style:solid;
+    padding: 3%;
+    display: none;
+    box-shadow: 0px 5px 15px 10px #e1e3ed;
+}
+label.login1
+{
+font-family: cursive;
+font-size: 30px;
+text-shadow:#1D7874 2px 0 7px;
+font-weight: bold;
+}
+button.style
+{
+	border-width: 0px;
+	width: 48px;
+	height: 48px;
+	background-repeat: no-repeat;
+	background-size: 25px 25px;
+	border-radius: 10px;
+	margin: 10px;
+	cursor: pointer;
+}
+label.lmeniu
+{
+	font-size: 15px;
+	font-family: cursive;
+	text-align: center;
+}
+div.log
+{
+	
+	background: url(img/Background/logo.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
