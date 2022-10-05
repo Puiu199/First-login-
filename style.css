@@ -6,11 +6,6 @@ body
 	background-size: cover;
 
 }
-.meniu
-{
-    margin-left: 75%;
-	margin-top: 5%;
-}
 .inplogin
 {
 	width: 245px;
@@ -18,12 +13,14 @@ body
 	border-right: transparent;
 	border-left: transparent;
 	background: transparent;
-	border-color: #1D7874;
+	border-color: #0EF9F1;
 	border-width: 5px;
 	border-bottom-style:double;;
 	border-radius:7px;
 	color: white;
 	margin-top: 50px;
+	text-align: center;
+	margin-left: 20px;
 }
 .butlogin
 {
@@ -36,10 +33,11 @@ body
 	border-color: transparent;
 	font-family: cursive;
 	font-size: 15px;
+	cursor: pointer;
 }
 .displaylogin
 {
-	margin-top: 11%;
+	margin-top: 5%;
 	height: 400px;
 	width: 585px;
 	padding: 2px;
@@ -52,6 +50,8 @@ body
     box-shadow: 0px 5px 15px 10px #e1e3ed;
     background-size: cover;
     background-attachment: fixed;
+    flex-direction: row;
+
 }
 .flabellogin1
 {
@@ -93,5 +93,7 @@ body
 	color: white;
 	font-size: 12px;
 	margin: 5px;
-	text-align: left;
+	align-items: start;
+	text-align:left;
+
 }

@@ -1,14 +1,28 @@
 .meniu
 {
-	background: white;
+	background: transparent;
 	width: auto;
-	height: 150px;
-	font-family: monospace;
+	height: auto;
+	background-attachment: fixed;
+	background-size: cover;
+	padding: 3px;
+	margin-top: 4%;
+	margin-right: auto;
+	margin-left: 78%;
 
+	
 }
 .btbg
 {
-
 width: auto;
 height: auto;
+background: transparent;
+border-color: transparent;
+margin: 0px;
+cursor: pointer;
+
+}
+#btlogin
+{
+	margin-bottom: 50px;
 }
