@@ -6,12 +6,12 @@ body
 	background-size: cover;
 
 }
-div.meniu
+.meniu
 {
     margin-left: 75%;
 	margin-top: 5%;
 }
-input.login1
+.labelogin
 {
 	width: 245px;
 	border-top: transparent;
@@ -23,11 +23,11 @@ input.login1
 	border-bottom-style:double;;
 	border-radius:7px;
 	color: white;
-	margin-top: 75px;
+	margin-top: 50px;
 }
-button.login1
+.butlogin
 {
-	width: 75px;
+	width: auto;
 	height: 30px;
 	border-radius: 5px;
 	margin-top:75px;
@@ -37,7 +37,7 @@ button.login1
 	font-family: cursive;
 	font-size: 15px;
 }
-div.login1
+.displaylogin
 {
 	margin-top: 11%;
 	height: 400px;
@@ -50,15 +50,17 @@ div.login1
     padding: 3%;
     display: none;
     box-shadow: 0px 5px 15px 10px #e1e3ed;
+    background-size: cover;
+    background-attachment: fixed;
 }
-label.login1
+.flabellogin1
 {
 font-family: cursive;
 font-size: 30px;
 text-shadow:#1D7874 2px 0 7px;
 font-weight: bold;
 }
-button.style
+.style
 {
 	border-width: 0px;
 	width: 48px;
@@ -69,16 +71,25 @@ button.style
 	margin: 10px;
 	cursor: pointer;
 }
-label.lmeniu
+.regis
+{
+	margin-top: 11%;
+	height: 400px;
+	width: 585px;
+	padding: 2px;
+    border-width: 1.5px;
+    backdrop-filter: blur(5px);
+    border-color: ;
+    border-style:solid;
+    padding: 3%;
+    display:none;
+    box-shadow: 0px 5px 15px 10px #e1e3ed;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.lmeniu
 {
 	font-size: 15px;
 	font-family: cursive;
 	text-align: center;
-}
-div.log
-{
-	
-	background: url(img/Background/logo.png);
-	background-repeat: no-repeat;
-	background-size: cover;
 }
