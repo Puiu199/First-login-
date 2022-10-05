@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="meniu.css">
 	<title>
 		Registration 
 	</title>
@@ -12,32 +13,53 @@
 <body>
 	
 <button onclick="unhide()">Login</button>
-<center >
+<div class="meniu"> 
+	<button >
+	<img src="" style="width:auto; height: 50px;">
+	</button>
+	<button>
+	<img src="/img.Bticon/btauto.png">
+	</button>
+	<button>
+	<img src="/img.Bticon/btauto.png">
+	</button>
+	<button>
+	<img src="/img.Bticon/btauto.png">
+	</button>
+	<button>
+	<img src="/imd.Bticon/btauto.png">
+	</button>
 
-<div class="displaylogin"  id="divlogin" >
+
+</div>
+<center >
+<div class="displaylogin"  id="login" >
 
 	<label class="flabellogin1">Log in / Regsitration </label><br>
-
-	<input type="text" class="labelogin"><br>
-	
-	<input type="password"  class="labelogin" style="width:320px;"><br>
-	
-	<button class="butlogin" onclick="hide()">Cancel</button>
-	<button class="butlogin">Log in</button>
+	<input type="text" class="inplogin"><br>
+	<input type="password"  class="inplogin" style="width:320px;"><br>
+	<button class="butlogin" onclick="hidelog()">Cancel</button>
+	<button class="butlogin" id="buttlogin">Log in</button>
 	<button class="butlogin" onclick="unhideregistre()">Registration</button>
-	
 </div>
 </center>
------
 <center>
-
 <div class="regis" id="regis">
-
-	<input type="text" class="labelogin"><br>
-	<input type="text" class="labelogin"><br>
-	<input type="date" class="labelogin">
-	<input type="text" >
-
+	<label class="flabellogin1">Registration</label><br>
+	<label class="labelregistre">First Name</label>
+	<input type="text" id="fname" class="inplogin"><br>
+	<label class="labelregistre">Second Name</label>
+	<input type="text" id="lname" class="inplogin"><br>
+	<label class="labelregistre">Birth day</label>
+	<input type="date" id="bdate" class="inplogin"><br>
+	<label class="labelregistre">Your mail</label>
+	<input type="text" id="mail"  class="inplogin"><br>
+	<label class="labelregistre">Create Login</label>
+	<input type="text" id="rlogin" class="inplogin"><br>
+	<label class="labelregistre">Create your pass</label>
+	<input type="password" id="rpasword" class="inplogin"><br>
+	<button class="butlogin" id="confirmbut">Confirm</button>
+	<button class="butlogin" id="cancelbut" onclick="hide()">Cancel</button>
 </div>
 </center>
 

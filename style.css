@@ -11,7 +11,7 @@ body
     margin-left: 75%;
 	margin-top: 5%;
 }
-.labelogin
+.inplogin
 {
 	width: 245px;
 	border-top: transparent;
@@ -55,10 +55,10 @@ body
 }
 .flabellogin1
 {
-font-family: cursive;
-font-size: 30px;
-text-shadow:#1D7874 2px 0 7px;
-font-weight: bold;
+	font-family: cursive;
+	font-size: 30px;
+	text-shadow:#1D7874 2px 0 7px;
+	font-weight: bold;
 }
 .style
 {
@@ -73,13 +73,13 @@ font-weight: bold;
 }
 .regis
 {
-	margin-top: 11%;
-	height: 400px;
+	margin-top: 5%;
+	height: auto;
 	width: 585px;
 	padding: 2px;
     border-width: 1.5px;
     backdrop-filter: blur(5px);
-    border-color: ;
+    border-color: transparent;
     border-style:solid;
     padding: 3%;
     display:none;
@@ -87,9 +87,11 @@ font-weight: bold;
     background-size: cover;
     background-attachment: fixed;
 }
-.lmeniu
+.labelregistre
 {
-	font-size: 15px;
 	font-family: cursive;
-	text-align: center;
+	color: white;
+	font-size: 12px;
+	margin: 5px;
+	text-align: left;
 }
