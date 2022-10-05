@@ -10,24 +10,40 @@
 </head>
 
 <body>
-	<button onclick="hide()"></button>
-	<button onclick="unhide()">Login</button>
+	
+<button onclick="unhide()">Login</button>
 <center >
-<div class="login1"  id="divlogin" >
-<label class="login1">Log in / Regsitration </label><br>
-<input type="text" name="login" class="login1"><br>
-<input type="password" name="pass" class="login1" style="width:320px;"><br>
-<button class="login1">Log in</button>
-<button class="login1">Registre</button>
-<button class="login1" onclick="hide()">Cancel</button>
+
+<div class="displaylogin"  id="divlogin" >
+
+	<label class="flabellogin1">Log in / Regsitration </label><br>
+
+	<input type="text" class="labelogin"><br>
+	
+	<input type="password"  class="labelogin" style="width:320px;"><br>
+	
+	<button class="butlogin" onclick="hide()">Cancel</button>
+	<button class="butlogin">Log in</button>
+	<button class="butlogin" onclick="unhideregistre()">Registration</button>
+	
+</div>
+</center>
+-----
+<center>
+
+<div class="regis" id="regis">
+
+	<input type="text" class="labelogin"><br>
+	<input type="text" class="labelogin"><br>
+	<input type="date" class="labelogin">
+	<input type="text" >
+
 </div>
 </center>
 
 
 </body>
-
 <script type="text/javascript" src="script.js"> 
 </script>
-
 
 </html>
