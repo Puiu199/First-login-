@@ -1,3 +1,22 @@
+var a=document.getElementById("inp1").textContent;
+var b=document.getElementById("inp2").textContent;
+
+function verifica() {
+    
+ if (a===b){
+ 
+    alert('Suka a e mai mare decit b');
+ }
+ else {
+    alert('Blea tiam sspus ca b>a');
+
+}
+}
+
+
+/*
+
+
 function hide()
 {
  document.getElementById("regis").style.display="none";
@@ -17,3 +36,5 @@ function hidelog()
 {
  document.getElementById("login").style.display="none";
 }
+
+*/
