@@ -37,21 +37,20 @@ body
 }
 .displaylogin
 {
-	margin-top: 5%;
-	height: 400px;
-	width: 585px;
-	padding: 2px;
+	position: fixed;
+	margin-right:50%;
+	margin-left: 35%;
+	width: 500px;
+	height: auto;
+	margin-top: 120px;
+	padding: 3%;
     border-width: 1.5px;
     backdrop-filter: blur(5px);
-    border-color: ;
+    border-color: transparent;
     border-style:solid;
-    padding: 3%;
-    display: none;
+    display:none;
     box-shadow: 0px 5px 15px 10px #e1e3ed;
-    background-size: cover;
-    background-attachment: fixed;
-    flex-direction: row;
-
+    float: center;
 }
 .flabellogin1
 {
@@ -73,25 +72,26 @@ body
 }
 .regis
 {
-	margin-top: 5%;
+	position: absolute;
+	margin-right:50%;
+	margin-left: 35%;
+	width: 500px;
 	height: auto;
-	width: 585px;
-	padding: 2px;
+	margin-top: 5%;
+	padding: 3%;
     border-width: 1.5px;
     backdrop-filter: blur(5px);
     border-color: transparent;
     border-style:solid;
-    padding: 3%;
     display:none;
     box-shadow: 0px 5px 15px 10px #e1e3ed;
-    background-size: cover;
-    background-attachment: fixed;
+
 }
 .labelregistre
 {
 	font-family: cursive;
 	color: white;
-	font-size: 12px;
+	font-size: 15px;
 	margin: 5px;
 	align-items: start;
 	text-align:left;

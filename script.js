@@ -1,26 +1,9 @@
-var a=document.getElementById("inp1").textContent;
-var b=document.getElementById("inp2").textContent;
 
-function verifica() {
-    
- if (a===b){
- 
-    alert('Suka a e mai mare decit b');
- }
- else {
-    alert('Blea tiam sspus ca b>a');
-
-}
-}
-
-
-/*
-
-
-function hide()
+function cancel()
 {
  document.getElementById("regis").style.display="none";
-}
+ document.getElementById("login").style.display="none";
+ }
 
 function unhide()
 {
@@ -36,5 +19,14 @@ function hidelog()
 {
  document.getElementById("login").style.display="none";
 }
+ function back()
+ {
+   
+   document.getElementById("regis").style.display="none";
+   document.getElementById("login").style.display="block";
 
-*/
+ }
+
+
+
+

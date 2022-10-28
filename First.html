@@ -6,13 +6,13 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="meniu.css">
 	<title>
-		Registration 
+		Vacannntion
 	</title>
 </head>
 
 <body>	
 <div class="meniu"> 
-	<button class="btbg" onclick="unhide()">
+	<button class="btbg" >
 	<img src="img/Bticon/bthome.png">
 	</button>
 	<button class="btbg"> 
@@ -31,48 +31,67 @@
 	<img src="img/Bticon/btlogin.png">
 	</button>
 </div>
-<center >
-<div class="displaylogin"  id="login" >
 
+<div class="displaylogin"  id="login" >
+	<center >
 	<label class="flabellogin1">Log in / Regsitration </label><br>
 	<input type="text" class="inplogin"><br>
 	<input type="password"  class="inplogin"   id="exemple"><br>
-	<button class="butlogin" onclick="complete()">Cancel</button>
+	<button class="butlogin" onclick="cancel()">Cancel</button>
 	<button class="butlogin" id="buttlogin">Log in</button>
 	<button class="butlogin" onclick="unhideregistre()">Registration</button>
+	</center>
 </div>
-</center>
-<center>
+
+
 <div class="regis" id="regis">
+	<center>
 	<label class="flabellogin1">Registration</label><br>
-	<label class="labelregistre">First Name</label>
-	<input type="text" id="fname" class="inplogin"><br>
-	<label class="labelregistre">Second Name</label>
-	<input type="text" id="lname" class="inplogin"><br>
-	<label class="labelregistre">Birth day</label>
-	<input type="date" id="bdate" class="inplogin"><br>
-	<label class="labelregistre">Your mail</label>
-	<input type="text" id="mail"  class="inplogin"><br>
-	<label class="labelregistre">Create Login</label>
-	<input type="text" id="rlogin" class="inplogin"><br>
-	<label class="labelregistre">Create your pass</label>
-	<input type="password" id="rpasword" class="inplogin"><br>
+	<table>
+	<tr>
+		<th><label class="labelregistre">First Name</label></th>
+		<th><input type="text" id="fname" class="inplogin"></th>
+	</tr>
+	<tr>
+		<th><label class="labelregistre">Second Name</label></th>
+		<th><input type="text" id="lname" class="inplogin"></th>
+	</tr>
+	<tr>
+		<th><label class="labelregistre">Birth day</label></th>
+		<th><input type="date" id="bdate" class="inplogin"></th>
+	</tr>
+	<tr>
+		<th><label class="labelregistre">Your mobile</label></th>
+		<th><input type="text" id="phone"  class="inplogin"></th>
+	</tr>
+	<tr>
+		<th><label class="labelregistre">Your mail</label></th>
+		<th><input type="text" id="mail"  class="inplogin"></th>
+	</tr>
+	<tr>
+		<th><label class="labelregistre">Create Login</label></th>
+		<th><input type="text" id="rlogin" class="inplogin"></th>
+	</tr>
+	<tr>
+		<th><label class="labelregistre">Create your pass</label></th>
+		<th>	<input type="password" id="rpasword" class="inplogin"></th>
+	</tr>
+
+</table>
+<br>
 	<button class="butlogin" id="confirmbut">Confirm</button>
-	<button class="butlogin" id="cancelbut" onclick="hide()">Cancel</button>
+	<button class="butlogin" id="cancelbut" onclick="cancel()">Cancel</button>
+	<button class="butlogin" id="back2login" onclick="back()">Back</button>
+	</center>
 </div>
-</center>
-
-
-<input type="text" id="inp1">
-<input type="text" id="inp2">
-<button id="go" onclick="verifica()">React</button>
 
 
 
-<h1></h1>
+
 
 </body>
 <script type="text/javascript" src="script.js"> 
+
 
 </script>
 
