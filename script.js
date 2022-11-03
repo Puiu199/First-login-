@@ -24,9 +24,20 @@ function hidelog()
    
    document.getElementById("regis").style.display="none";
    document.getElementById("login").style.display="block";
-
  }
+function validate()
+{
+  var all=document.getElementsByTagName("input");
 
+   if (all=="") 
+   {
+      alert("Itroduceti datele necesare");
+      return false;
+   } 
+   else {
+     console.log('Bleaaa')
+   }
+}
 
 
 

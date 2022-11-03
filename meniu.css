@@ -11,17 +11,23 @@
 	position: static;
 	float: right;
 	margin-right: 15px;
-
-
-
 }
 .btbg
 {
+justify-self: center;
 width: auto;
 height: auto;
 background: transparent;
 border-color: transparent;
 margin: 0px;
 cursor: pointer;
+}
 
+input.invalid
+{
+background-color: darkred;
+}
+input:invalid:required 
+{
+  background-color: red;
 }
